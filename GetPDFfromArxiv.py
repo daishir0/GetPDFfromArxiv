@@ -48,7 +48,7 @@ def download_pdfs(keyword):
                 pdf_url = f"https://arxiv.org{pdf_url}"
 
             # Skip if the URL does not end with '.pdf'
-            if not pdf_url.endswith('.pdf'):
+            if 'pdf' not in pdf_url:
                 print(f"Skipping non-PDF URL: {pdf_url}")
                 continue
 
