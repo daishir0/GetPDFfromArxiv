@@ -26,10 +26,9 @@ Replace `<search_keyword>` with the keyword you want to search for.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
 
-### README.md (日本語)
-```markdown
+---
+
 # GetPDFfromArxiv
 
 ## 概要
